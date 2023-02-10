@@ -98,6 +98,8 @@
 		9B1CB0EC2996760900D88CF0 /* touch */ = {
 			isa = PBXGroup;
 			children = (
+				9B1CB11D2996787900D88CF0 /* features */,
+				9B1CB11C2996787100D88CF0 /* core */,
 				9B1CB0ED2996760900D88CF0 /* touchApp.swift */,
 				9B1CB0EF2996760900D88CF0 /* ContentView.swift */,
 				9B1CB0F12996761300D88CF0 /* Assets.xcassets */,
@@ -131,6 +133,292 @@
 				9B1CB10F2996761400D88CF0 /* touchUITestsLaunchTests.swift */,
 			);
 			path = touchUITests;
+			sourceTree = "<group>";
+		};
+		9B1CB11C2996787100D88CF0 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB1222996795300D88CF0 /* extensions */,
+				9B1CB1212996793100D88CF0 /* database */,
+				9B1CB1202996792700D88CF0 /* utils */,
+				9B1CB11F299678E900D88CF0 /* constants */,
+				9B1CB11E2996788100D88CF0 /* network */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		9B1CB11D2996787900D88CF0 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB13929967D3100D88CF0 /* home */,
+				9B1CB13129967CC900D88CF0 /* register */,
+				9B1CB12A29967B0800D88CF0 /* base */,
+				9B1CB123299679AA00D88CF0 /* login */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		9B1CB11E2996788100D88CF0 /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		9B1CB11F299678E900D88CF0 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		9B1CB1202996792700D88CF0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9B1CB1212996793100D88CF0 /* database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		9B1CB1222996795300D88CF0 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		9B1CB123299679AA00D88CF0 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB125299679D200D88CF0 /* data */,
+				9B1CB124299679C400D88CF0 /* presentation */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		9B1CB124299679C400D88CF0 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB13829967D1C00D88CF0 /* view_models */,
+				9B1CB13729967D1500D88CF0 /* widgets */,
+				9B1CB13629967D0F00D88CF0 /* screens */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		9B1CB125299679D200D88CF0 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB12C29967C0000D88CF0 /* repo_protocol */,
+				9B1CB12929967A6F00D88CF0 /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9B1CB126299679DA00D88CF0 /* view_models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view_models;
+			sourceTree = "<group>";
+		};
+		9B1CB127299679EA00D88CF0 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		9B1CB12829967A4000D88CF0 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		9B1CB12929967A6F00D88CF0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9B1CB12A29967B0800D88CF0 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB12D29967C4B00D88CF0 /* datasource */,
+				9B1CB12B29967B1000D88CF0 /* repository */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		9B1CB12B29967B1000D88CF0 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		9B1CB12C29967C0000D88CF0 /* repo_protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repo_protocol;
+			sourceTree = "<group>";
+		};
+		9B1CB12D29967C4B00D88CF0 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB13029967C8D00D88CF0 /* local_datasource */,
+				9B1CB12F29967C8100D88CF0 /* remote_datasource */,
+			);
+			path = datasource;
+			sourceTree = "<group>";
+		};
+		9B1CB12F29967C8100D88CF0 /* remote_datasource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = remote_datasource;
+			sourceTree = "<group>";
+		};
+		9B1CB13029967C8D00D88CF0 /* local_datasource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = local_datasource;
+			sourceTree = "<group>";
+		};
+		9B1CB13129967CC900D88CF0 /* register */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB13529967CE600D88CF0 /* presenation */,
+				9B1CB13229967CD200D88CF0 /* data */,
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		9B1CB13229967CD200D88CF0 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB13429967CE000D88CF0 /* model */,
+				9B1CB13329967CD700D88CF0 /* repo_protocol */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9B1CB13329967CD700D88CF0 /* repo_protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repo_protocol;
+			sourceTree = "<group>";
+		};
+		9B1CB13429967CE000D88CF0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9B1CB13529967CE600D88CF0 /* presenation */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB12829967A4000D88CF0 /* screens */,
+				9B1CB127299679EA00D88CF0 /* widgets */,
+				9B1CB126299679DA00D88CF0 /* view_models */,
+			);
+			path = presenation;
+			sourceTree = "<group>";
+		};
+		9B1CB13629967D0F00D88CF0 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		9B1CB13729967D1500D88CF0 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		9B1CB13829967D1C00D88CF0 /* view_models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view_models;
+			sourceTree = "<group>";
+		};
+		9B1CB13929967D3100D88CF0 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB13D29967DDE00D88CF0 /* presentation */,
+				9B1CB13A29967D7A00D88CF0 /* data */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		9B1CB13A29967D7A00D88CF0 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB13C29967DB900D88CF0 /* repo_protocol */,
+				9B1CB13B29967DAE00D88CF0 /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9B1CB13B29967DAE00D88CF0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9B1CB13C29967DB900D88CF0 /* repo_protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repo_protocol;
+			sourceTree = "<group>";
+		};
+		9B1CB13D29967DDE00D88CF0 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CB14029967E0D00D88CF0 /* view_model */,
+				9B1CB13F29967E0600D88CF0 /* widgets */,
+				9B1CB13E29967DF900D88CF0 /* screens */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		9B1CB13E29967DF900D88CF0 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		9B1CB13F29967E0600D88CF0 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		9B1CB14029967E0D00D88CF0 /* view_model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view_model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
